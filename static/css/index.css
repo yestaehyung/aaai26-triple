@@ -155,3 +155,41 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* TRIPLE-specific styles */
+.image-placeholder,
+.table-placeholder {
+  transition: all 0.3s ease;
+}
+
+.image-placeholder:hover,
+.table-placeholder:hover {
+  border-color: #999;
+  background-color: #f0f0f0;
+}
+
+.venue-block {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Component boxes styling */
+.box {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Key findings list styling */
+.content ul li {
+  margin-bottom: 1rem;
+}
+
+.content ul li strong {
+  color: #363636;
+}
